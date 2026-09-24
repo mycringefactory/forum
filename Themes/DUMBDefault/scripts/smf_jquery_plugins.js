@@ -132,6 +132,7 @@
 				// plain old hover it is
 				$(this).hover(smf_tooltip_on, smf_tooltip_off);
 			}
+			$(this).click(smf_tooltip_on);
 
 			// create the on tip action
 			function smf_tooltip_on(event)
